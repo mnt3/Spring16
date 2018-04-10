@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lt.itakademija.GradedSuiteIT" time="1.049" tests="14" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="catalina.base" value="C:\Users\JP17-2\IdeaProjects\SpringJPAReact uzduotys\spring16\target\tomcat"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="catalina.useNaming" value="true"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="java.util.logging.config.file" value="C:\Users\JP17-2\IdeaProjects\SpringJPAReact uzduotys\spring16\target\tomcat\conf\logging.properties"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="user.name" value="JP17-2"/>
+    <property name="shared.loader" value=""/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="tomcat.util.buf.StringCache.byte.enabled" value="true"/>
+    <property name="user.language" value="lt"/>
+    <property name="java.naming.factory.initial" value="org.apache.naming.java.javaURLContextFactory"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="classworlds.conf" value="C:\Program Files\Java\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="PID" value="5796"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.util.logging.manager" value="org.apache.juli.ClassLoaderLogManager"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1257"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="package.access" value="sun.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="LT"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="org.jboss.logging.provider" value="slf4j"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="tomcat.util.scan.DefaultJarScanner.jarsToSkip" value="bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,websocket-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-spdy.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,tools.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j.jar,log4j-1*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,junit.jar,junit-*.jar,hamcrest*.jar,org.hamcrest*.jar,ant-launcher.jar"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="sun.stdout.encoding" value="cp775"/>
+    <property name="package.definition" value="sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper."/>
+    <property name="user.script" value=""/>
+    <property name="java.naming.factory.url.pkgs" value="org.apache.naming"/>
+    <property name="user.home" value="C:\Users\JP17-2"/>
+    <property name="org.apache.catalina.startup.ContextConfig.jarsToSkip" value=""/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Java\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\Users\JP17-2\AppData\Roaming\npm;."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="spring.beaninfo.ignore" value="true"/>
+    <property name="org.apache.catalina.startup.TldConfig.jarsToSkip" value="tomcat7-websocket.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="common.loader" value="${catalina.base}/lib,${catalina.base}/lib/*.jar,${catalina.home}/lib,${catalina.home}/lib/*.jar"/>
+    <property name="maven.home" value="C:\Program Files\Java\apache-maven-3.3.9\bin\.."/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.class.path" value="C:\Program Files\Java\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="catalina.home" value="C:\Users\JP17-2\IdeaProjects\SpringJPAReact uzduotys\spring16\target\tomcat"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="java.io.tmpdir" value="C:\Users\JP17-2\AppData\Local\Temp\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\JP17-2\IdeaProjects\SpringJPAReact uzduotys\spring16"/>
+    <property name="server.loader" value=""/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\JP17-2\IdeaProjects\SpringJPAReact uzduotys\spring16"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding" value="Cp1257"/>
+    <property name="sun.stderr.encoding" value="cp775"/>
+    <property name="tomcat.maven.http.port" value="9092"/>
+    <property name="java.specification.version" value="1.8"/>
+  </properties>
+  <testcase name="securityEventsRepositoryReturnsAllRegisteredEventCorrectly" classname="lt.itakademija.JavaCodingTask" time="0.177"/>
+  <testcase name="dateProviderWorksCorrectly" classname="lt.itakademija.JavaCodingTask" time="0"/>
+  <testcase name="securityEventsRepositoryDeletesEventCorrectly" classname="lt.itakademija.JavaCodingTask" time="0"/>
+  <testcase name="securityEventsRepositoryCreatesEventCorrectly" classname="lt.itakademija.JavaCodingTask" time="0.005"/>
+  <testcase name="sequenceNumberGeneratorWorksCorrectly" classname="lt.itakademija.JavaCodingTask" time="0"/>
+  <testcase name="securityEventsRepositoryUpdatesEventCorrectly" classname="lt.itakademija.JavaCodingTask" time="0.003"/>
+  <testcase name="securityServiceControllerIsSpringComponent" classname="lt.itakademija.SpringConfigurationTask" time="0.011"/>
+  <testcase name="sequenceNumberGeneratorIsSpringComponent" classname="lt.itakademija.SpringConfigurationTask" time="0.005"/>
+  <testcase name="dateTimeProviderIsSpringComponent" classname="lt.itakademija.SpringConfigurationTask" time="0.005"/>
+  <testcase name="securityEventsRepositoryIsSpringComponent" classname="lt.itakademija.SpringConfigurationTask" time="0.004"/>
+  <testcase name="eventCreateOperationEnsuresThatRequiredDataIsPresent" classname="lt.itakademija.RestServicesTask" time="0.628"/>
+  <testcase name="eventUpdateOperationEnsuresThatRequiredDataIsPresent" classname="lt.itakademija.RestServicesTask" time="0.023"/>
+  <testcase name="registersEventsThenChangesSeverityLevelForEachEventAndDeletesEachEvent" classname="lt.itakademija.RestServicesTask" time="0.02">
+    <failure message="Wrong status code&#10;Expected: is &lt;201&gt;&#10;     but: was &lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Wrong status code
+Expected: is <201>
+     but: was <400>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at lt.itakademija.RestServicesTask.registerEvent(RestServicesTask.java:244)
+	at lt.itakademija.RestServicesTask.lambda$registersEventsThenChangesSeverityLevelForEachEventAndDeletesEachEvent$2(RestServicesTask.java:172)
+]]></failure>
+    <system-out><![CDATA[2018-04-10 13:42:38.079  INFO 4368 --- [           main] lt.itakademija.RestServicesTask          : Registering event: {'severityLevel':'HIGH','location':'Vilnius','description':'Attack reported.'}
+]]></system-out>
+  </testcase>
+  <testcase name="swaggerDocIsPublished" classname="lt.itakademija.SwaggerDocTask" time="0.168"/>
+</testsuite>

@@ -1,0 +1,10 @@
+127.0.0.1 - - [10/Apr/2018:13:42:37 +0300] "POST /spring-exam/webapi/events HTTP/1.1" 400 1497 http-bio-9092-exec-1 474
+127.0.0.1 - - [10/Apr/2018:13:42:38 +0300] "POST /spring-exam/webapi/events HTTP/1.1" 400 1061 http-bio-9092-exec-2 4
+127.0.0.1 - - [10/Apr/2018:13:42:38 +0300] "POST /spring-exam/webapi/events HTTP/1.1" 400 1059 http-bio-9092-exec-3 3
+127.0.0.1 - - [10/Apr/2018:13:42:38 +0300] "POST /spring-exam/webapi/events HTTP/1.1" 400 1061 http-bio-9092-exec-4 6
+127.0.0.1 - - [10/Apr/2018:13:42:38 +0300] "POST /spring-exam/webapi/events HTTP/1.1" 400 1061 http-bio-9092-exec-5 7
+127.0.0.1 - - [10/Apr/2018:13:42:38 +0300] "POST /spring-exam/webapi/events HTTP/1.1" 400 1162 http-bio-9092-exec-6 4
+127.0.0.1 - - [10/Apr/2018:13:42:38 +0300] "POST /spring-exam/webapi/events HTTP/1.1" 400 2062 http-bio-9092-exec-7 4
+127.0.0.1 - - [10/Apr/2018:13:42:38 +0300] "PUT /spring-exam/webapi/events/1 HTTP/1.1" 400 726 http-bio-9092-exec-8 10
+127.0.0.1 - - [10/Apr/2018:13:42:38 +0300] "POST /spring-exam/webapi/events HTTP/1.1" 400 1083 http-bio-9092-exec-9 4
+127.0.0.1 - - [10/Apr/2018:13:42:38 +0300] "GET /spring-exam/v2/api-docs HTTP/1.1" 200 3039 http-bio-9092-exec-10 158

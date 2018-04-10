@@ -1,0 +1,16 @@
+lt\itakademija\repository\InMemorySecurityEventsRepository.class
+lt\itakademija\repository\SimpleDateProvider.class
+lt\itakademija\model\RegisteredEventUpdate.class
+lt\itakademija\servlet\HttpFilter.class
+lt\itakademija\controller\SecurityServiceController.class
+lt\itakademija\repository\SecurityEventsRepository.class
+lt\itakademija\repository\SequenceNumberGenerator.class
+lt\itakademija\servlet\RequestFormatter.class
+lt\itakademija\servlet\MultiReadHttpServletRequest$1.class
+lt\itakademija\repository\SimpleSequenceNumberGenerator.class
+lt\itakademija\Application.class
+lt\itakademija\model\SeverityLevel.class
+lt\itakademija\model\RegisteredEvent.class
+lt\itakademija\model\EventRegistration.class
+lt\itakademija\repository\DateProvider.class
+lt\itakademija\servlet\MultiReadHttpServletRequest.class
